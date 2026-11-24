@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="我把内容创作、学习和投研中的重复工作，做成可以反复使用的工具。">
+  <link rel="alternate" hreflang="en" href="en/index.html">
+  <title>东煌 DH · 个人官网</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./filters.js" defer></script>
+</head>
+<body>
+  <header class="header wrap">
+    <a class="brand" href="#top">东煌 DH</a>
+    <nav aria-label="站点导航">
+      <a href="#projects">项目</a>
+      <a href="https://github.com/donghuangzhuang-crypto">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="en/index.html" lang="en">English</a>
+    </nav>
+  </header>
+  <main id="top" class="wrap">
+    <section class="hero" aria-labelledby="intro">
+      <h1 id="intro">我是个 AI Builder</h1>
+      <p>我把内容创作、学习和投研中的重复工作，做成可以反复使用的工具。</p>
+      <a href="#projects" class="primary">查看项目 <span aria-hidden="true">↓</span></a>
+    </section>
+    <div id="projects" class="directory">
+      <div class="directory-heading">
+        <div><h2>项目与工具</h2><p>本机工具、产品原型和个人工作台。</p></div>
+        <p class="count" id="project-count" aria-live="polite">16 个项目</p>
+      </div>
+      <div class="filters" aria-label="筛选项目类别" hidden><button type="button" data-filter="all" aria-pressed="true">全部</button><button type="button" data-filter="creative" aria-pressed="false">内容与视频</button><button type="button" data-filter="marketing" aria-pressed="false">创作者与出海</button><button type="button" data-filter="research" aria-pressed="false">市场与投研</button><button type="button" data-filter="systems" aria-pressed="false">学习与个人</button></div>
+      <section class="category" data-group="creative" aria-labelledby="label-creative">
+      <h2 id="label-creative">内容与视频</h2>
+      <div class="project-grid"><article class="project" id="badminton-highlights" data-category="creative">
+      <span class="status">本机工具</span>
+      <h3>羽球高光</h3>
+      <p>导入羽毛球录像，复核回合、微调切点，并把选中的高光导出为 MP4。</p>
+      <ul><li>React</li><li>Python</li><li>FFmpeg</li></ul>
+    </article><article class="project" id="article-card" data-category="creative">
+      <span class="status">本机工具</span>
+      <h3>文章卡片生成器</h3>
+      <p>把文章要点整理成一张适合分享的图文卡片。</p>
+      <ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+    </article><article class="project" id="remotion-editor" data-category="creative">
+      <span class="status">本机工具</span>
+      <h3>Remotion 编辑器</h3>
+      <p>基于 Remotion Studio 预览动画构图、检查时间线，并用既有脚本合成视频。</p>
+      <ul><li>Remotion</li><li>React</li><li>TypeScript</li></ul>
+    </article><article class="project" id="zephyr" data-category="creative">
+      <span class="status">本机工具</span>
+      <h3>二创工坊</h3>
+      <p>管理动漫角色、画风和参考素材，支持图片制作与 PSD 分层。</p>
+      <ul><li>React</li><li>Node.js</li><li>PSD</li></ul>
+    </article><article class="project" id="stellane" data-category="creative">
+      <span class="status">个人工作台</span>
+      <h3>星邻</h3>
+      <p>把内容选题、排期、制作、审核和发布进度放进一个工作台。</p>
+      <ul><li>Python</li><li>SQLite</li><li>Content planning</li></ul>
+    </article></div>
+    </section>
+<section class="category" data-group="marketing" aria-labelledby="label-marketing">
+      <h2 id="label-marketing">创作者与出海</h2>
+      <div class="project-grid"><article class="project" id="creator-positioning" data-category="marketing">
+      <span class="status">本机工具</span>
+      <h3>网红定位</h3>
+      <p>通过对话梳理创作者的优势、受众和账号方向。</p>
+      <ul><li>Next.js</li><li>Creator tools</li></ul>
+    </article><article class="project" id="creator-value" data-category="marketing">
+      <span class="status">交互原型</span>
+      <h3>网红价值分析工具</h3>
+      <p>根据账号类别、粉丝及播放范围生成商业价值示例报告。</p>
+      <ul><li>Next.js</li><li>Sample data</li></ul>
+    </article><article class="project" id="creator-comment-radar" data-category="marketing">
+      <span class="status">交互原型</span>
+      <h3>网红评论舆情</h3>
+      <p>通过示例报告展示评论情感、异议信号和合作风险，支持导出 Markdown。</p>
+      <ul><li>Next.js</li><li>Sample data</li><li>Markdown</li></ul>
+    </article><article class="project" id="brand-story" data-category="marketing">
+      <span class="status">本机工具</span>
+      <h3>品牌故事</h3>
+      <p>为出海品牌梳理品牌叙事、标语、色彩和字体，形成可讨论的视觉板。</p>
+      <ul><li>Next.js</li><li>Brand strategy</li></ul>
+      <div class="card-links"><a href="https://github.com/donghuangzhuang-crypto/brand_story">早期原型 <span aria-hidden="true">↗</span></a></div>
+    </article><article class="project" id="export-compass" data-category="marketing">
+      <span class="status">交互原型</span>
+      <h3>出海罗盘</h3>
+      <p>按产品查看出海与红人营销分析案例，辅助比较市场切入点。</p>
+      <ul><li>Next.js</li><li>Market entry</li></ul>
+    </article><article class="project" id="creative-vane" data-category="marketing">
+      <span class="status">交互原型</span>
+      <h3>创意风标</h3>
+      <p>用跨境电商案例展示短视频素材创意和生产流程。</p>
+      <ul><li>Next.js</li><li>Creative production</li></ul>
+      <div class="card-links"><a href="https://github.com/donghuangzhuang-crypto/Creativity">早期原型 <span aria-hidden="true">↗</span></a></div>
+    </article></div>
+    </section>
+<section class="category" data-group="research" aria-labelledby="label-research">
+      <h2 id="label-research">市场与投研</h2>
+      <div class="project-grid"><article class="project" id="zhiji" data-category="research">
+      <span class="status">个人工作台</span>
+      <h3>知几</h3>
+      <p>将市场、行业、公司、策略研究和量化回测放进同一个投研工作台。</p>
+      <ul><li>Next.js</li><li>Python</li><li>DuckDB</li></ul>
+    </article><article class="project" id="market-news" data-category="research">
+      <span class="status">本机工具</span>
+      <h3>知几 · 市场消息</h3>
+      <p>聚合市场消息，整理信源、可能影响和后续核验条件。</p>
+      <ul><li>TypeScript</li><li>Market research</li></ul>
+      <div class="card-links"><a href="https://github.com/blue68/ai-hottopics">上游项目 <span aria-hidden="true">↗</span></a></div>
+    </article><article class="project" id="chanlun-tool" data-category="research">
+      <span class="status">本机工具</span>
+      <h3>缠论工具</h3>
+      <p>通过分型、笔、线段、中枢和买卖点查看 A 股走势图的结构。</p>
+      <ul><li>Python</li><li>Streamlit</li><li>Chanlun</li></ul>
+      <div class="card-links"><a href="https://github.com/Vespa314/chan.py">上游项目 <span aria-hidden="true">↗</span></a></div>
+    </article></div>
+    </section>
+<section class="category" data-group="systems" aria-labelledby="label-systems">
+      <h2 id="label-systems">学习与个人</h2>
+      <div class="project-grid"><article class="project" id="studying-os" data-category="systems">
+      <span class="status">个人工作台</span>
+      <h3>StudyingOS</h3>
+      <p>用 Obsidian 串起学习记录、每日计划与复盘。</p>
+      <ul><li>Next.js</li><li>Obsidian</li><li>Learning</li></ul>
+    </article><article class="project" id="portfolio" data-category="systems">
+      <span class="status">作品集网站</span>
+      <h3>个人官网</h3>
+      <p>汇总项目、创作和研究方向的中英文作品集。</p>
+      <ul><li>GitHub Pages</li><li>HTML</li><li>CSS</li></ul>
+      <div class="card-links"><a href="https://github.com/donghuangzhuang-crypto/donghuangzhuang-crypto.github.io">GitHub 仓库 <span aria-hidden="true">↗</span></a></div>
+    </article></div>
+    </section>
+    </div>
+  </main>
+  <footer class="footer wrap"><span>东煌 DH</span><a href="#top">返回顶部 <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
